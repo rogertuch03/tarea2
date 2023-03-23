@@ -1,27 +1,31 @@
-
-h1 {
-    color: lightcoral;
+h1{
+  font-family: 'Amatic SC', cursive;
+  color: orchid;
 }
 h2{
-    font-size: 70px;
-    color: rgb(52, 51, 99);
-    font-family: 'Rubik Iso', cursive;
-  }
-  h3{
-    font-size: 45px;
-    font-family: 'Amatic SC', cursive;
-    color: orchid;
-  }
-  p{
-    font-size: 20px;
-    color: firebrick;
-  }
+  font-size: 70px;
+  color: rgba(18, 33, 85, 0.925);
+  font-family: 'Rubik Iso', cursive;
+}
+h3{
+  font-size: 45px;
+  font-family: 'Amatic SC', cursive;
+  color: orchid;
+}
+p{
+  font-size: 20px;
+  color: rgb(16, 20, 201);
+}
 ul,
 ol, {
-    font-size: 20px;
+  font-size: 20px;
 }
 img{
-    width: 250px;
-border-width: 2px;
-
+  width: 250px;
+border-width: 5px;
+border-color: blueviolet;
+border-style: outset;
+}
+.bordes-redondeados{
+  border-radius: 55px;
 }
